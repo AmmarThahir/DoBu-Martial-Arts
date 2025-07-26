@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | DuBo Martial Arts</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="container">
+      <div class="nav-left">
+      <a href="index.html" class="logo-link">
+  <img src="images/logo1.png" alt="DoBu Martial Arts Logo" class="logo-img">
+</a>
+</div>
+      <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
+      <li><a href="timetable.html">TIMETABLE</a></li>
+      <li><a href="pricing.html">MEMBERSHIP</a></li>
+      <li><a href="courses.html">COURSES</a></li>
+      <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or want to get started, reach out to us! We're happy to help.</p>
+
+      <div class="contact-info">
+        <p><strong>Address:</strong> 123 Kick Street, London</p>
+        <p><strong>Phone:</strong> +44 123 456 7890</p>
+        <p><strong>Email:</strong> info@dubomartialarts.co.uk</p>
+      </div>
+
+      <form action="process_contact.php" method="post" class="contact-form" novalidate>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Write your message here..."></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DuBo Martial Arts. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
